@@ -1,7 +1,7 @@
 import './madLib.html';
 
 Template.body.events({
-	'submit #submitButton'(event){
+	'submit form'(event){
 
 		event.preventDefault();
 
